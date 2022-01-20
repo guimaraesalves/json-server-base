@@ -22,3 +22,23 @@ POST /login <br/>
 POST /signin
 
 Qualquer um desses 2 endpoints pode ser usado para realizar login com um dos usuários cadastrados na lista de "Users"
+
+<hr>
+
+
+## Hobby
+
+POST /hobby
+
+**664** - O usuário deve estar logado para gravar o recurso.
+Todos podem ler o recurso.
+
+<hr>
+
+
+## Courses
+
+POST /courses
+
+**644** - O usuário deve possuir o recurso para gravar o recurso.
+Todos podem ler o recurso.
